@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriVida - Inicio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- Nuestro propio CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- ===================== HEADER / NAVBAR ===================== -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">NutriVida</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blogs.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Iniciar sesión</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registro.html">Registrarse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html">Carrito (0)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ===================== MAIN ===================== -->
+    <main>
+
+        <!-- Sección principal / bienvenida -->
+        <section class="hero container-fluid text-center text-white p-5">
+            <h1>Clínica Nutricional NutriVida</h1>
+            <p class="lead">Consultas, planes y talleres para ayudarte a alcanzar tus metas nutricionales.</p>
+            <a href="servicios.html" class="btn btn-light btn-lg">Ver servicios</a>
+        </section>
+
+        <!-- Sección de servicios destacados -->
+        <section class="container mt-5">
+            <h2 class="text-center mb-4">Servicios destacados</h2>
+
+            <div class="row">
+
+                <!-- Servicio 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Primera consulta nutricional</h5>
+                            <p class="card-text">Evaluación inicial: anamnesis, antropometría completa y diseño del primer plan alimenticio.</p>
+                            <p class="card-text"><strong>$35.000</strong></p>
+                            <a href="#" class="btn btn-success">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Plan pérdida de peso (1 mes)</h5>
+                            <p class="card-text">Incluye primera consulta, un control quincenal, plan alimenticio personalizado y seguimiento por WhatsApp.</p>
+                            <p class="card-text"><strong>$65.000</strong></p>
+                            <a href="#" class="btn btn-success">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Taller de alimentación saludable</h5>
+                            <p class="card-text">Máximo 10 personas. Conceptos básicos de alimentación equilibrada y lectura de etiquetas.</p>
+                            <p class="card-text"><strong>$15.000</strong></p>
+                            <a href="#" class="btn btn-success">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center">
+                <a href="servicios.html" class="btn btn-outline-success">Ver todos los servicios</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="bg-success text-white text-center p-3 mt-5">
+        <p>© 2026 Clínica Nutricional NutriVida</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
